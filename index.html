@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kartik Sharma</title>    
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://github.com/masken64/" class="link"  
+          >{KS}.</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Internship">Externship</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Kartik Sharma.</span></h1>
+        <h2 class="about__role">Web/Cloud Developer</h2>
+        <p class="about__desc"> 
+          Final-year B.Tech Computer Science student at VIT Bhopal University. Willing to put in the effort necessary to achieve my
+goals. Can easily pick up new concepts and skills, highly adaptable, ready to embrace new changes.
+        </p> 
+        <br>
+        <a href="mailto:shrkartik2001@gmail.com">Mail: shrkartik2001@gmail </a><p> Contact: +91 9910570983</p>
+      </br>
+      
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1Sms06PN6ysRm6wDiMkm29N5rs918XhMD/view?usp=sharing" target="_blank"  >
+            <span class="btn btn--outline">Resume</span> 
+          </a>
+
+          <a
+            href="https://github.com/masken64" target="_blank"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a> <!-- Github profile Link-->
+
+          <a
+            href="https://www.linkedin.com/in/kartik-sharma0211/" target="_blank"  
+            aria-label="linkedin"
+            class="link link--icon"
+          > 
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a> <!-- LinledIn profile Link-->
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>FixItPal</h3> <!--Peoject Title -->
+            <p class="project__description">
+             Backend API for a forum for people to connect to each other and find fixes to almost all solutions around the world.
+            </p> <!--Project description-->
+            <ul class="project__stack">
+              <li class="project__stack-item">SpringBoot</li>
+              <li class="project__stack-item">MySQL</li>
+              <li class="project__stack-item">Java</li>
+            </ul>
+
+            <a
+              href="https://github.com/masken64/FixItPal" target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >  <!--Project link-->
+
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://imgur.com/a/Of7zGgv"
+              aria-label="live preview"
+              class="link link--icon"
+            > <!--Project demo or git link-->
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>AccuStay</h3>
+            <p class="project__description">
+              Developed and implemented a scalable and flexible hotel management system. Hotels can use it to manage their bookings, reservations, and inventory.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">SpringBoot</li>
+              <li class="project__stack-item">MySQL</li>
+            </ul>
+
+            <a
+              href="https://github.com/kvvin/Hotel-Management-System" target="_blank"
+              aria-label="https://github.com/kvvin/Hotel-Management-System" target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://imgur.com/a/GjnKr09"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>VIT-Buddy</h3>
+            <p class="project__description">
+              Developed and implemented VIT-Buddy, a voice-activated virtual assistant for VIT Bhopal's website.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">CSS</li>
+              <li class="project__stack-item">HTML</li>
+            </ul>
+
+            <a
+              href="https://github.com/masken64/Virtual-Assistant-for-VIT-Bhopal" target="_blank"
+              aria-label="https://github.com/masken64/Virtual-Assistant-for-VIT-Bhopal" target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+            <a
+              href="https://imgur.com/a/oMbChTZ"
+              aria-label="live preview"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="Internship" class="section Internship" id="Internship">
+        <h2 class="section__title">Extenships & Certifications</h2>
+
+      <div class="project">
+        <h3>SmartInternz</h3>
+        <p class="project__description">
+          Collaborated with a team to build enterprise Java applications using the Spring framework, worked with various back-end and front-end technologies, including MySQL, HTML, JavaScript, and Node.js.
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">SpringBoot</li>
+          <li class="project__stack-item">NodeJs</li>
+          <li class="project__stack-item">JavaScript</li>
+        </ul>
+
+        <a
+          href=""  
+          aria-label="https://drive.google.com/file/d/1E3rnzjEEu26xqdYyELPBlJaF7NXPQWHR/view?usp=sharing" target="_blank"
+          class="link link--icon"
+        > <!-- Include the certification links and  -->
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
+        <a
+          href="https://drive.google.com/file/d/1E3rnzjEEu26xqdYyELPBlJaF7NXPQWHR/view?usp=sharing"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    </div>
+	<div class="project">
+        <h3>AWS Certified Cloud Practitioner</h3>
+        <p class="project__description">
+          Validation Number : HXEQ9TQK82R414W3
+        </p>
+        <a
+          href="https://drive.google.com/file/d/1xxd_SOQdTaqEr9T5e_7bfz7W3iDsDfxR/view?usp=sharing"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+    <div class="project">
+        <h3>VMware MA CTS</h3>
+        <p class="project__description">
+          VMware MA CTS (Modern Applications: Core Technical Skills)
+        </p>
+        <a
+          href="https://drive.google.com/file/d/1zkPhLPUnksvJ73CqO8x3wb0MbsaoQqNx/view?usp=sharing"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+	  <div class="project">
+        <h3>AWS Cloud Practitioner Essentials</h3>
+        <a
+          href="https://drive.google.com/file/d/1H4zB_ydNxpKxnwkJWiBI9sUDZwGVm8FD/view?usp=sharing"
+          aria-label="live preview"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fas fa-external-link-alt"></i>
+        </a>
+      </div>
+  </section>
+
+ <!-- duplicate the above section and you can change it to paper or experience-->
+
+      
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">HTML</li>                        <!--You can fill in the elective course and you can remove extras-->
+          <li class="skills__list-item btn btn--plain">CSS</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">SpringBoot</li>
+          <li class="skills__list-item btn btn--plain">NodeJs</li>
+          <li class="skills__list-item btn btn--plain">C++</li>
+          <li class="skills__list-item btn btn--plain">JAVA</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">AWS</li>
+          <li class="skills__list-item btn btn--plain">MySQL</li>
+        </ul>
+      </section>
+
+    <footer class="footer">
+      <a
+        href="" 
+        class="link footer__link"
+      >  
+        Created By Kartik Sharma <!-- edit it to your name -->
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
